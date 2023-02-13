@@ -1,0 +1,125 @@
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #34e89e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.profile-image, .img {
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ height: 90px;
+ width: auto;
+ border-radius: 50%;
+ position: relative;
+ top: 10px;
+}
+
+.img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+.socials {
+  height: 250px;
+  width: 300px;
+  background:rgba(0, 0, 0, 0.35);
+  position: relative;
+  left: 390px;
+}
+
+.instagram {
+  height: 50px;
+  width: 200px;
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: 40px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.instagram:hover {
+ transform: translateY(-3px);
+ box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13px;
+}
+
+.linkedin {
+  height: 50px;
+  width: 200px;
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: 55px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.linkedin:hover {
+ transform: translateY(-3px);
+ box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ cursor: pointer;
+}
+
+.twitter {
+  height: 50px;
+  width: 200px;
+  background: #000;
+  position: relative;
+  left: 50px;
+  top: 69px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.twitter:hover {
+ transform: translateY(-3px);
+ box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+ cursor: pointer;
+}
+
+footer {
+  position: relative;
+  left: 10px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .socials {
+    height: 250px;
+    width: 90%;
+    left: 5%;
+  }
+
+  .instagram, .linkedin, .twitter {
+    width: 100%;
+    left: 0;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  footer {
+    left: 10px;
+    top: 90px;
+  }
+}

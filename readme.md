@@ -1,0 +1,1 @@
+A "Social Media Platform" done by using HTML & CSS. Bringing simplicity and ease to access social media links, this project aims to make it easier to find social media's.
